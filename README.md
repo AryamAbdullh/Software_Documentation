@@ -55,3 +55,60 @@ The purpose of the Outlook application is to help users manage their emails, org
 ### Comparison:
 - **Outlook**: Powerful in appointment management and integration with other Microsoft systems.
 - **Gmail**: Focuses on simplicity and integration with Google services.
+  
+## 6. Survey
+
+The team conducted several surveys to evaluate users’ experiences with Outlook. Below are the results:
+<img src="images/image_2024-10-03_20-42-23.png" alt="description" width="400"/>
+
+### User Satisfaction Survey
+A survey was conducted to evaluate users’ satisfaction with Outlook. Here are the results:
+
+- **High satisfaction**: 84.4% of participants consider themselves "very satisfied," indicating excellent performance of the application.
+- **Satisfaction rate**: 9.0% of users are satisfied, indicating that most have a positive experience.
+- **Dissatisfied**: Only 0.4% were dissatisfied, and 0% were "very dissatisfied," showing few negative experiences overall. The results indicate that the Outlook application enjoys high satisfaction from its users.
+  <img src="images/image_2024-10-03_20-44-05.png" alt="description" width="400"/>
+   <img src="images/image_2024-10-03_20-44-13.png" alt="description" width="400"/>
+
+### Survey on Problems Faced
+A survey was conducted to assess whether users face any problems while using Outlook. Here are the results:
+
+- **Yes**: 4 votes (18.2%)
+- **No**: 18 votes (81.8%)
+
+Most users do not encounter problems; however, 18.2% reported issues, specifically delays in loading messages, which affected their experience.
+<img src="images/image_2024-10-03_20-44-31.png" alt="description" width="400"/>
+
+### Most Important Features Survey
+A survey was conducted to determine the most important features users look for in Outlook. Here are the results:
+
+- **Email organization**: 20% - highlights the importance of an effective system for organizing messages.
+- **Task management and scheduling**: 11% - users want to use the app as a tool for managing their time and tasks.
+- **Quick search**: 10% - reflects the importance of being able to search effectively within the app.
+<img src="images/image_2024-10-03_20-44-47.png" alt="description" width="400"/>
+### User Interface Survey
+A survey was conducted to evaluate the user interface in Outlook. Here are the results:
+
+- **Excellent rating**: 16% of participants rated the interface as "Excellent," showing high satisfaction with the application's design.
+- **Good rating**: 6% of users found the interface "Good," suggesting some positive feedback but room for improvement.
+- **No average or poor ratings**: No participants rated the interface as "average" or "poor," indicating no significant negative impressions.
+
+### Task Management Survey
+A survey was conducted to evaluate the effectiveness of task management in Outlook. Here are the results:
+<img src="images/image_2024-10-03_20-45-03.png" alt="description" width="400"/>
+- **Very effective**: 13% of users rated task management as “very effective.”
+- **Somewhat effective**: 5% rated it as "somewhat effective," showing some positive feedback with room for improvement.
+- **No negative ratings**: No users rated task management as ineffective.
+
+### Meeting Users' Needs Survey
+A survey was conducted to assess whether Outlook adequately meets the needs of users. The results:
+<img src="images/image_2024-10-03_20-45-15.png" alt="description" width="400"/>
+<img src="images/image_2024-10-03_20-45-28.png" alt="description" width="400"/>
+- **Yes**: 95.5% of respondents feel that Outlook adequately meets their needs, indicating high satisfaction with the services provided by the program.
+- **No**: A few users reported difficulty using basic functions, such as search and logging in. This feedback should be addressed to improve the user experience.
+
+### Recommendations Based on Survey Results:
+1. **Providing Educational Resources**: Create educational videos or step-by-step guides to explain how to log in and use the search feature effectively.
+2. **Monitoring System Performance**: Regularly monitor the system’s message delivery performance to ensure there are no delays, and take immediate action if problems arise.
+
+---
