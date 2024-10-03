@@ -153,3 +153,24 @@ The database of Outlook will be organized into eight entity "tables". This struc
 5. **Contacts ↔ Groups**: Many-to-many (Contacts belong to multiple groups).
 6. **Users ↔ Notifications**: One-to-many (A user receives multiple notifications).
 7. **Users ↔ Search Logs**: One-to-many (A user has many search logs).
+
+---
+
+### 7.3 Interface Description
+
+The process of creating a new account in Outlook through the interfaces is as follows:
+
+1. **Login Interface**: The user who has a previous account logs in by entering their data (phone number or email and password).
+<img src="images/in1.png" alt="description" width="400"/>
+2. **Account Creation**: If the user is new, they will select "No account? Create one!" The system will display a form to create a new account, starting with choosing the email and then entering a password.
+<img src="images/in2.png" alt="description" width="400"/>
+3. **Email and Password**: The user enters their email and a secure password. There is an option to show the password and to receive service provider offers via email.
+<img src="images/in3.png" alt="description" width="400"/>
+<img src="images/in4.png" alt="description" width="400"/>
+4. **Name Entry**: The user is asked to enter their first and last name, which will appear on their personal account.
+<img src="images/in5.png" alt="description" width="400"/>
+5. **Captcha Verification**: The system verifies that the user is not a robot to ensure security and prevent bot activity.
+<img src="images/in6.png" alt="description" width="400"/>
+<img src="images/in7.png" alt="description" width="400"/>
+6. **Account Creation Success**: After completing the above steps, the account is created successfully, and the user can access the home page. From there, they can use all functions such as sending and receiving messages, creating appointments, etc.
+<img src="images/in8.png" alt="description" width="400"/>
