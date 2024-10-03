@@ -112,3 +112,42 @@ A survey was conducted to assess whether Outlook adequately meets the needs of u
 2. **Monitoring System Performance**: Regularly monitor the system’s message delivery performance to ensure there are no delays, and take immediate action if problems arise.
 
 ---
+## 7. Data Models
+
+### 7.1 Use Case Diagram
+
+The Use Case Diagram represents the Outlook System. It outlines interactions between two actors: the User and the System, with several use cases detailing functionalities provided by the system. Here's a breakdown of the elements in the diagram:
+
+- **User**: Interacts with the system to manage emails, appointments, tasks, and contacts.
+- **System**: Facilitates the user's actions and provides notifications, reminders, and search functionality.
+<img src="images/usecase_outlook.png" alt="description" width="400"/>
+### 7.2 Database Description
+
+The database of Outlook will be organized into eight entity "tables". This structure supports the main system functionalities and ensures efficient interaction between users, emails, appointments, tasks, and contacts.
+
+#### Database Entities:
+1. **Users**
+    - Stores user data (account info, login details).
+2. **Emails**
+    - Stores emails (sender, recipient, subject, body).
+3. **Appointments**
+    - Manages scheduled appointments (title, time, reminder).
+4. **Tasks**
+    - Handles tasks (task details, due dates, priority).
+5. **Contacts**
+    - Stores user contacts (name, email, phone, group).
+6. **Contact Groups**
+    - Organizes contacts into groups.
+7. **Notifications**
+    - Stores reminders and alerts.
+8. **Search Logs**
+    - Logs user searches (query, timestamp).
+
+#### Communication/Relationships:
+1. **Users ↔ Emails**: One-to-many (A user sends/receives multiple emails).
+2. **Users ↔ Appointments**: One-to-many (A user creates many appointments).
+3. **Users ↔ Tasks**: One-to-many (A user manages multiple tasks).
+4. **Users ↔ Contacts**: One-to-many (A user manages multiple contacts).
+5. **Contacts ↔ Groups**: Many-to-many (Contacts belong to multiple groups).
+6. **Users ↔ Notifications**: One-to-many (A user receives multiple notifications).
+7. **Users ↔ Search Logs**: One-to-many (A user has many search logs).
