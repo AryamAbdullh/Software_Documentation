@@ -121,6 +121,8 @@ The Use Case Diagram represents the Outlook System. It outlines interactions bet
 - **User**: Interacts with the system to manage emails, appointments, tasks, and contacts.
 - **System**: Facilitates the user's actions and provides notifications, reminders, and search functionality.
 <img src="images/usecase_outlook.png" alt="description" width="400"/>
+
+---
 ### 7.2 Database Description
 
 The database of Outlook will be organized into eight entity "tables". This structure supports the main system functionalities and ensures efficient interaction between users, emails, appointments, tasks, and contacts.
