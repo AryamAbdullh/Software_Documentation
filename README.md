@@ -174,3 +174,72 @@ The process of creating a new account in Outlook through the interfaces is as fo
 <img src="images/in7.png" alt="description" width="400"/>
 6. **Account Creation Success**: After completing the above steps, the account is created successfully, and the user can access the home page. From there, they can use all functions such as sending and receiving messages, creating appointments, etc.
 <img src="images/in8.png" alt="description" width="400"/>
+
+---
+## 7.3 System Architecture
+
+System Architecture for Outlook is based on a multi-layered architecture to ensure high performance, security, and scalability. Outlook is an email service and personal information management platform, so it requires a robust architecture to handle millions of users and messages daily.
+
+### User Interface Layer (Front End Layer)
+
+This layer is what users interact with through smartphone applications (iOS/Android), desktop (Windows/Mac), or web (Outlook Web App).
+- **Software**: Applications built using technologies such as C# or Swift and Kotlin for mobile devices, and web technologies such as React, HTML5, and CSS for the front end.
+- **Hardware**: Mobile devices, personal computers, or tablets to access the Outlook application.
+
+### Application Layer (Back End Layer)
+
+Includes email processing, calendar management, contact management, and tasks. This layer is implemented using frameworks such as ASP.NET Core in Windows Server environments.
+- **Software**: Backend services for email routing, message processing, session management, attachment processing, and security scanning.
+- **Hardware**: Cloud servers or dedicated data centers that run applications and services, such as Azure servers.
+
+### Database Layer
+
+Stores user data, messages, contacts, events, and appointments. Databases such as Microsoft SQL Server are used to store structured data.
+- **Software**: Database management system (DBMS), backup and recovery tools, and data security policies.
+- **Hardware**: Database servers in either data centers or the cloud.
+
+### Integration Layer
+
+This layer provides connectivity to third-party applications and services such as Microsoft 365, Teams, SharePoint, and Skype for Business.
+- **Software**: APIs and integration services using REST or Graph APIs to integrate with other Microsoft services.
+- **Hardware**: Intermediary or cloud servers to manage integration between multiple services.
+
+### Security Layer
+
+This layer is concerned with protecting data and personal information such as emails from hacking and cyber threats.
+- **Software**: Data encryption using protocols such as TLS/SSL, identity management and authentication (OAuth2, Active Directory).
+- **Hardware**: Firewalls, intrusion detection systems (IDS), and email security solutions such as Microsoft Defender for Office 365.
+
+---
+
+## 7.4 Hardware Requirements
+
+- **Servers**: Powerful cloud servers such as Azure or local servers in data centers to run applications and process mail.
+- **Networking Devices**: Networking equipment such as routers and network adapters to ensure stable and secure communication between users and servers.
+- **Storage Systems**: Cloud storage solutions to store user data, messages, and attachments with periodic backups (such as Azure Blob Storage).
+- **Load Balancers**: Load distributors to distribute traffic between servers to ensure high performance.
+
+---
+
+## 7.5 Software Requirements
+
+- **Backend Frameworks**: Such as ASP.NET Core to develop back-end services and manage sessions.
+- **Database Management Systems (DBMS)**: such as Microsoft SQL Server for storing and managing data.
+- **Cloud Services**: such as Microsoft Azure for hosting servers, storage, and cloud tools for performance analysis and high availability.
+- **Security Software**: Data encryption and identity management systems, such as Active Directory and Azure AD.
+- **Monitoring and Logging Tools**: System monitoring tools such as Azure Monitor or ELK Stack for performance analysis and troubleshooting.
+
+---
+
+## Cloud Architecture
+
+Outlook uses Azure as its underlying infrastructure:
+- **Compute**: Azure Virtual Machines to run backend services.
+- **Storage**: Azure Blob Storage to store user data and attached files.
+- **Networking**: Azure Virtual Network to secure data movement.
+- **Security Services**: such as Azure Active Directory (AD) for identity management and authentication, and Azure Key Vault to store secret keys.
+
+### Connecting to Other Services
+
+Outlook integrates tightly with other applications such as Microsoft 365, Teams, and OneDrive, and this is done using the Graph API that provides a unified API to facilitate integration between all services.
+
