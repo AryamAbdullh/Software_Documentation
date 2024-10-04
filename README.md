@@ -210,6 +210,8 @@ This layer is concerned with protecting data and personal information such as em
 - **Software**: Data encryption using protocols such as TLS/SSL, identity management and authentication (OAuth2, Active Directory).
 - **Hardware**: Firewalls, intrusion detection systems (IDS), and email security solutions such as Microsoft Defender for Office 365.
 
+<img src="images/outlook_arch.png" alt="description" width="400"/>
+
 ---
 
 ## 7.4 Hardware Requirements
